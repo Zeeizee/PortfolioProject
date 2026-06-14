@@ -15,6 +15,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: `${personalInfo.name} – ${personalInfo.title}`,
   description: personalInfo.tagline,
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({
