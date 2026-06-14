@@ -22,7 +22,7 @@ export const personalInfo: PersonalInfo = {
   phone: "+92 308 584 3383",
   location: "Lahore, Pakistan",
   avatarInitials: "ZP",
-  cvLink: "/cv.pdf",
+  cvLink: "/ZeenatParveen_FSD.pdf",
   linkedin: "https://linkedin.com/in/zeenat-parveen-fullstackdevelopr",
   github: "https://github.com/Zeeizee",
   website: "https://zeenatparveendev.netlify.app/",

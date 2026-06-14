@@ -66,7 +66,7 @@ export function Hero() {
                   </Link>
                   <a
                     href={personalInfo.cvLink}
-                    download
+                    download={personalInfo.cvLink.replace(/^\//, "")}
                     className={buttonVariants({
                       variant: "outline",
                       className:
