@@ -196,7 +196,7 @@ export const projects: Project[] = [
     subtitle: "MERN blog platform with admin CMS",
     url: "https://momoriesblog.netlify.app/",
     displayUrl: "momoriesblog.netlify.app",
-    tech: ["React.js", "Node.js", "CRUD Operations"],
+    tech: ["React.js", "Node.js", "CRUD Operations","Cloudinary media storage","Redux","axios interceptors"],
     description:
       "Developed a MERN blog platform with JWT-protected admin flows for creating, editing, and deleting posts and gallery images. Designed REST APIs with MongoDB pagination, category filters, and Cloudinary cursor-based image storage. Built a responsive React/Redux frontend with route guards, category tabs, paginated listings, and reusable gallery/image-picker components.",
     icon: "book-open",
@@ -207,9 +207,9 @@ export const projects: Project[] = [
     subtitle: "HIPAA-compliant medical transport platform",
     url: "https://angelcaretransit.com",
     displayUrl: "angelcaretransit.com",
-    tech: ["Next.js", "Node.js", "Axios", "Framer Motion", "HIPAA Compliance"],
+    tech: ["Next.js", "Node.js", "Axios", "Framer Motion"],
     description:
-      "Architected and delivered a Next.js medical transport platform serving 1,000+ clients; implemented SSG/SSR strategies for SEO performance, Framer Motion micro-animations for enhanced UX, and Axios interceptors for secure, token-based API integration. Engineered a HIPAA-compliant full-stack solution sustaining 99.9% uptime.",
+      "Architected and delivered a Next.js medical transport platform serving 1,000+ clients; implemented SSG/SSR strategies for Blogs and services pages, Framer Motion micro-animations for enhanced UX, and Axios interceptors for secure, token-based API integration.",
     icon: "ambulance",
     headerColor: "accent",
   },
@@ -225,11 +225,11 @@ export const projects: Project[] = [
       "Express",
       "MongoDB",
       "JWT",
-      "Cloudinary",
+    
       "REST APIs",
     ],
     description:
-      "Architected a scalable ERP platform for sales and purchase management using Ant Design Form.List for dynamic form generation, i18next for multi-language support (English + more), and AI-driven analytics dashboards backed by a robust PostgreSQL schema. Implemented automated CI/CD pipelines to streamline release delivery.",
+      "Architected a scalable ERP platform for sales and purchase management using Ant Design Form.List for dynamic form generation, i18next for multi-language support (English + more), and AI-driven analytics dashboards. Implemented automated CI/CD pipelines to streamline release delivery.",
     icon: "bar-chart-3",
     headerColor: "teal",
   },
